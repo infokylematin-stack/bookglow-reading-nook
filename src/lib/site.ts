@@ -5,7 +5,7 @@ import b3 from "@/assets/book-3.webp.asset.json";
 import b4 from "@/assets/book-4.webp.asset.json";
 import author from "@/assets/author.webp.asset.json";
 import journal from "@/assets/journal.webp.asset.json";
-import kyle from "@/assets/kyle-matin.png.asset.json";
+import kyle from "@/assets/kyle-matin-large.jpg.asset.json";
 
 export const BRAND = "Kyle Matin";
 export const EMAIL = "Kylamartin@gmail.com";

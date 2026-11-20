@@ -105,8 +105,8 @@ export function AuthorSpot() {
             <Link to="/contact" className="mt-5 inline-flex items-center gap-1 text-sm font-medium underline underline-offset-4">Talk to {BRAND}</Link>
           </div>
         </div>
-        <div className="flex items-center justify-center bg-ink p-8 md:p-14">
-          <img src={img.kyle} alt={`${BRAND}, founder of ${BRAND} Media`} className="aspect-square w-full max-w-sm object-cover" loading="lazy" />
+        <div className="overflow-hidden bg-ink">
+          <img src={img.kyle} alt={`${BRAND}, founder of ${BRAND} Media`} className="aspect-square w-full object-cover" loading="lazy" />
         </div>
       </div>
     </section>
