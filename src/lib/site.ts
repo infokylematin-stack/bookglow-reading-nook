@@ -8,7 +8,7 @@ import journal from "@/assets/journal.webp.asset.json";
 import kyle from "@/assets/kyle-matin-large.jpg.asset.json";
 
 export const BRAND = "Kyle Matin";
-export const EMAIL = "Kylamartin@gmail.com";
+export const EMAIL = "Kylemartin@gmail.com";
 export const img = { hero: hero.url, author: author.url, journal: journal.url, b1: b1.url, b3: b3.url, kyle: kyle.url };
 
 export const books = [
