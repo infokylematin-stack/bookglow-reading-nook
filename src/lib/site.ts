@@ -5,13 +5,6 @@ import b3 from "@/assets/book-3.webp.asset.json";
 import b4 from "@/assets/book-4.webp.asset.json";
 import author from "@/assets/author.webp.asset.json";
 import journal from "@/assets/journal.webp.asset.json";
-import daniel from "@/assets/daniel.webp.asset.json";
-import olamilekan from "@/assets/olamilekan.webp.asset.json";
-import abdulah from "@/assets/abdulah.webp.asset.json";
-import sophia from "@/assets/sophia.webp.asset.json";
-import tanja from "@/assets/tanja.webp.asset.json";
-import timileyin from "@/assets/timileyin.webp.asset.json";
-import ganiyu from "@/assets/ganiyu.webp.asset.json";
 
 export const BRAND = "Kyla Matin";
 export const EMAIL = "Kylamartin@gmail.com";
@@ -40,16 +33,6 @@ export const steps = [
   ["Your Book Gets Discovered", "Create more entry points for relevant readers."],
 ];
 export const prep = ["Editing & proofreading", "Print & ebook formatting", "Manuscript preparation", "Book descriptions", "Author biographies", "Publishing preparation"];
-
-export const team = [
-  { name: "Ojeniyi Daniel", role: "Book Promotion Strategist", img: daniel.url },
-  { name: "Olamilekan Salam", role: "Digital Marketing Specialist", img: olamilekan.url },
-  { name: "Arowolo Abdulah", role: "Author Visibility Coordinator", img: abdulah.url },
-  { name: "Sophia Williams", role: "Editorial & Publishing Coordinator", img: sophia.url },
-  { name: "TANJA NAGEL", role: "Author Support Coordinator", img: tanja.url },
-  { name: "Timileyin Ezekiel", role: "Reader Discovery Strategist", img: timileyin.url },
-  { name: "Ganiyu Lukman- SticallyWrite", role: "Creative & Brand Strategist", img: ganiyu.url },
-];
 
 export const posts = [
   { cat: "Book Marketing", title: "Your book is published. Now what?", blurb: "A thoughtful starting point for building visibility after publication—without trying to do everything at once.", date: "October 7, 2026", read: "6 min read", img: journal.url },

@@ -1,7 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight, ArrowUpRight, BookOpen, Feather, Megaphone, ShieldCheck, Sparkles } from "lucide-react";
 import { BRAND, img, pageMeta } from "@/lib/site";
-import { AuthorSpot, Books, btnDark, btnLight, Cta, Eyebrow, Feature, Journal, Newsletter, Prep, SectionHead, Services, Steps, Team } from "@/components/sections";
+import { AuthorSpot, Books, btnDark, btnLight, Cta, Eyebrow, Feature, Journal, Newsletter, Prep, SectionHead, Services, Steps } from "@/components/sections";
 
 export const Route = createFileRoute("/")({
   head: () => pageMeta("Great Books Deserve to Be Discovered", `${BRAND} Media helps authors and publishers turn great books into discoverable stories.`),
@@ -37,7 +37,7 @@ function Index() {
       <section className="container-x py-24">
         <SectionHead center eyebrow="Good books. Meaningful connections." title={<>Books are everywhere. <br />The <em>right books</em> are harder to find.</>} text="Behind every book is a voice worth hearing. We bring stories out of the noise and into the places readers are looking—helping authors be seen and readers find something that stays with them." />
       </section>
-      <Books /><Services /><Feature /><AuthorSpot /><Steps /><Prep /><Team /><Journal /><Newsletter /><Cta />
+      <Books /><Services /><Feature /><AuthorSpot /><Steps /><Prep /><Journal /><Newsletter /><Cta />
     </>
   );
 }

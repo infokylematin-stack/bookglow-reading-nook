@@ -1,7 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { useState, type ReactNode } from "react";
 import { ArrowRight, ArrowUpRight, Check } from "lucide-react";
-import { BRAND, books, genres, posts, prep, services, steps, team, img } from "@/lib/site";
+import { BRAND, books, genres, posts, prep, services, steps, img } from "@/lib/site";
 
 export const btnDark = "inline-flex items-center gap-2 rounded-sm bg-primary px-6 py-3.5 text-sm font-medium text-primary-foreground transition hover:opacity-90";
 export const btnLight = "inline-flex items-center gap-2 rounded-sm border bg-card px-6 py-3.5 text-sm font-medium text-foreground transition hover:bg-muted";
@@ -146,26 +146,6 @@ export function Prep() {
           </ul>
           <Link to="/services" className={`${btnDark} mt-10`}>Prepare Your Book <ArrowRight className="size-4" /></Link>
         </div>
-      </div>
-    </section>
-  );
-}
-
-export function Team() {
-  return (
-    <section className="container-x py-24">
-      <div className="flex flex-wrap items-end justify-between gap-6">
-        <SectionHead eyebrow={`The people behind ${BRAND}`} title={<>Our team. <em>Your next chapter.</em></>} text="Meet the people bringing together book promotion, editorial care, author support, and reader discovery." />
-        <Link to="/contact" className={btnLight}>Talk to our team <ArrowRight className="size-4" /></Link>
-      </div>
-      <div className="mt-14 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
-        {team.map((m) => (
-          <div key={m.name}>
-            <img src={m.img} alt={m.name} className="aspect-square w-full bg-muted object-cover" loading="lazy" />
-            <h3 className="mt-4 text-xl">{m.name}</h3>
-            <p className="text-sm text-muted-foreground">{m.role}</p>
-          </div>
-        ))}
       </div>
     </section>
   );
