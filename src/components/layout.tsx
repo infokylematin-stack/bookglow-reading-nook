@@ -5,7 +5,7 @@ import { BRAND, EMAIL, nav } from "@/lib/site";
 import { btnDark } from "./sections";
 
 function Logo() {
-  return <Link to="/" className="leading-none"><span className="font-serif text-2xl">Kyla <span className="text-gold">Matin</span></span><span className="mt-1 block text-[0.6rem] tracking-[0.5em] text-muted-foreground">MEDIA</span></Link>;
+  return <Link to="/" className="leading-none"><span className="font-serif text-2xl">Kyle <span className="text-gold">Matin</span></span><span className="mt-1 block text-[0.6rem] tracking-[0.5em] text-muted-foreground">MEDIA</span></Link>;
 }
 
 export function Header() {

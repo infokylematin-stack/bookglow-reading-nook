@@ -82,11 +82,11 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Kyla Matin Media" },
-      { name: "description", content: "Book promotion and author visibility by Kyla Matin Media." },
+      { title: "Kyle Matin Media" },
+      { name: "description", content: "Book promotion and author visibility by Kyle Matin Media." },
       
-      { property: "og:title", content: "Kyla Matin Media" },
-      { property: "og:description", content: "Book promotion and author visibility by Kyla Matin Media." },
+      { property: "og:title", content: "Kyle Matin Media" },
+      { property: "og:description", content: "Book promotion and author visibility by Kyle Matin Media." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       

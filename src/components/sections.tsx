@@ -97,15 +97,17 @@ export function AuthorSpot() {
     <section className="bg-secondary py-24">
       <div className="container-x grid items-center gap-14 md:grid-cols-2">
         <div>
-          <SectionHead eyebrow="Behind the pages" title={<>Meet the minds <br /><em>behind the stories.</em></>} text="Every book begins with a person and a perspective. Our author spotlights make space for the inspirations, questions, and quiet moments behind the work." />
+          <SectionHead eyebrow="Behind the pages" title={<>Meet the mind <br /><em>behind the stories.</em></>} text="Every book begins with a person and a perspective. Kyle Matin Media makes space for the inspirations, questions, and quiet moments behind the work—and puts the right readers in front of them." />
           <div className="mt-10 border-t pt-8">
-            <p className="text-xs text-muted-foreground">Illustrative author spotlight</p>
-            <h3 className="mt-2 text-3xl">Eleanor Reed</h3>
-            <p className="mt-2 text-sm text-muted-foreground">A fictional nature-inspired nonfiction author, created to showcase the {BRAND} author experience.</p>
-            <Link to="/for-authors" className="mt-5 inline-flex items-center gap-1 text-sm font-medium underline underline-offset-4">Explore Eleanor’s story</Link>
+            <p className="text-xs text-muted-foreground">Founder · {BRAND} Media</p>
+            <h3 className="mt-2 text-3xl">{BRAND}</h3>
+            <p className="mt-2 text-sm text-muted-foreground">Book promotion, author visibility, and publishing support—built around getting great books discovered.</p>
+            <Link to="/contact" className="mt-5 inline-flex items-center gap-1 text-sm font-medium underline underline-offset-4">Talk to {BRAND}</Link>
           </div>
         </div>
-        <img src={img.author} alt="Illustrative portrait for the Eleanor Reed author spotlight" className="aspect-[4/5] w-full object-cover" loading="lazy" />
+        <div className="flex items-center justify-center bg-ink p-8 md:p-14">
+          <img src={img.kyle} alt={`${BRAND}, founder of ${BRAND} Media`} className="aspect-square w-full max-w-sm object-cover" loading="lazy" />
+        </div>
       </div>
     </section>
   );

@@ -5,10 +5,11 @@ import b3 from "@/assets/book-3.webp.asset.json";
 import b4 from "@/assets/book-4.webp.asset.json";
 import author from "@/assets/author.webp.asset.json";
 import journal from "@/assets/journal.webp.asset.json";
+import kyle from "@/assets/kyle-matin.png.asset.json";
 
-export const BRAND = "Kyla Matin";
+export const BRAND = "Kyle Matin";
 export const EMAIL = "Kylamartin@gmail.com";
-export const img = { hero: hero.url, author: author.url, journal: journal.url, b1: b1.url, b3: b3.url };
+export const img = { hero: hero.url, author: author.url, journal: journal.url, b1: b1.url, b3: b3.url, kyle: kyle.url };
 
 export const books = [
   { title: "The Art of Noticing", author: "Eleanor Reed", genre: "Nonfiction", tag: "Editor's pick", img: b1.url, blurb: "A gentle invitation to slow down, pay attention, and find something extraordinary in the everyday." },
